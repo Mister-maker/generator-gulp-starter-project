@@ -1,6 +1,6 @@
 {
   "name": "generator-gulp-starter-project",
-  "version": "0.0.9",
+  "version": "1.0.0",
   "description": "Gulp boilerplate generator",
   "main": "index.js",
   "scripts": {

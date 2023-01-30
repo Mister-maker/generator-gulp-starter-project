@@ -16,11 +16,8 @@ module.exports = class extends Generator {
     );
     this.fs.copy(
       this.templatePath('.gitignore'),
-      this.destinationPath('.gitignore')
-    );
-    this.fs.copy(
-      this.templatePath('.npmignore'),
-      this.destinationPath('.npmignore')
+      this.destinationPath('.gitignore'),
+      { globOptions: { dot: true } }
     );
     this.fs.copy(
       this.templatePath('package.json'),

@@ -1,3 +1,6 @@
 [submodule "generators/app/templates"]
 	path = generators/app/templates
 	url = https://github.com/Mister-maker/gulp-boilerplate
+[submodule "templates"]
+	path = templates
+	url = https://github.com/Mister-maker/gulp-boilerplate
